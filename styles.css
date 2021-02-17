@@ -1,0 +1,13 @@
+body {
+    background-color: #3e89c2;
+}
+
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest-releases {
+    display: flex;
+    justify-content: center;
+}
