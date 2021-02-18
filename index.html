@@ -6,72 +6,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
     <title>Game World</title>
-</head>  <body>
-    <section id="top-navbar">
-      <img src="src/images/web-logo.png" alt="website logo" id="web-logo" />
+</head>
+
+<body>
+  <section id="top-navbar">
+    <img src="src/images/web-logo.png" alt="website logo" id="web-logo" />
+    <form action="">
+      <button>
+        <script src="https://kit.fontawesome.com/8d16c22756.js" crossorigin="anonymous"></script>
+          <i class="fas fa-search"> </i> Search   
+      </button>
+      <input type="text" />
+    </form>
+  </section>
+
+  
+
+  <section id="latest-releases">
+    <div class="web-header">
+      <h1 class="web-header">The Latest</h1>
+    </div>
+
+    <!--  -->
+
+    <div class="carousel">
+  <div class="progress-bar progress-bar--primary hide-on-desktop">
+    <div class="progress-bar__fill"></div>
+  </div>
+
+<header class="main-post-wrapper">
+  
+  <div class="slides">
+    <article class="main-post main-post--active">
+      <div class="main-post__image">
+        <img src="src/images/ps5exclusive.jpg" alt="PlayStation 5 Is Quickly Assembling A Nice Selection Of Exclusives" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">Feature</span>
+        </div>
+        <h1 class="main-post__title">PlayStation 5 Is Quickly Assembling A Nice Selection Of Exclusives</h1>
+        <a class="main-post__link" href="#">
+              <span class="main-post__link-text">find out more</span>
+              <svg
+                class="main-post__link-icon main-post__link-icon--arrow"
+                width="37"
+                height="12"
+                viewBox="0 0 37 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
+                  stroke="white"
+                />
+              </svg>
+            </a>
+      </div>
+    </article>
+    <article class="main-post main-post--not-active">
+      <div class="main-post__image">
+        <img src="src/images/skywardswordhd.jpg" alt="Skyward Sword announced for Switch" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">News</span>
+        </div>
+        <h1 class="main-post__title">The Legend Of Zelda: Skyward Sword HD Announced For Nintendo Switch</h1>
+        <a class="main-post__link" href="#">
+              <svg
+                class="main-post__link-icon main-post__link-icon--play-btn"
+                width="30"
+                height="30"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="10"
+                  cy="10"
+                  r="9"
+                  stroke="#C20000"
+                  stroke-width="2"
+                />
+                <path d="M14 10L8 6V14L14 10Z" fill="white" />
+              </svg>
+              <span class="main-post__link-text">play video</span>
+            </a>
+      </div>
+    </article>
+    <article class="main-post main-post--not-active">
+      <div class="main-post__image">
+        <img src="src/images/olija_combat_2.jpg" alt="Hamilton wants harder championship fight from Leclerc and
+            Verstappen" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">Review</span>
+        </div>
+        <h1 class="main-post__title">Olija: 
+Tight gameplay, fun exploration, and an alluring atmosphere turn a disastrous voyage into a rewarding expedition.
+        </h1>
+        <a class="main-post__link" href="#">
+              <span class="main-post__link-text">find out more</span>
+              <svg
+                class="main-post__link-icon main-post__link-icon--arrow"
+                width="37"
+                height="12"
+                viewBox="0 0 37 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
+                  stroke="white"
+                />
+              </svg>
+            </a>
+      </div>
+    </article>
+  </div>
+</header>
+
+<div class="posts-wrapper hide-on-mobile">
+  <article class="post post--active">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">Feature</span>
+      <p class="post__published">18 February 2021</p>
+    </header>
+    <h2 class="post__title">PlayStation 5 Is Quickly Assembling A Nice Selection Of Exclusives</h2>
+  </article>
+  <article class="post">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">News</span>
+      <p class="post__published">18 February 2021</p>
+    </header>
+    <h2 class="post__title">The Legend Of Zelda: Skyward Sword HD Announced For Nintendo Switch</h2>
+  </article>
+  <article class="post">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">Review</span>
+      <p class="post__published">18 February 2021</p>
+    </header>
+    <h2 class="post__title">Olija - 8.5</h2>
+  </article>
+</div>
+</div>
+
+    <!--  -->
+  </section>
+
+  <section id="extra-info">
+    <h2>Extra info to go here</h2>
+    <p>
+      Proin condimentum risus est, id iaculis risus euismod in. Quisque rutrum
+      venenatis purus et ullamcorper. Vestibulum iaculis non felis et
+      bibendum. Nulla fringilla orci nunc. Phasellus urna enim, cursus nec
+      vestibulum vel, placerat sit amet nunc. Donec eleifend eu enim ac
+      consequat. Aliquam ut semper magna. In eros diam, pharetra id massa id,
+      tempor feugiat purus. Aenean nec tortor lacus. Aliquam erat volutpat.
+      Nam at ante suscipit, tincidunt tortor quis, blandit nunc. Nunc eu
+      varius turpis, sit amet venenatis urna. Sed vehicula purus tincidunt
+      ante semper mattis.
+    </p>
+    <!-- carousel will go here -->
+    <img src="src/images/maxresdefault.jpg" alt="" />
+    <p>Placeholder text</p>
+    <img src="src/images/maxresdefault.jpg" alt="" />
+    <p>Placeholder text</p>
+    <img src="src/images/maxresdefault.jpg" alt="" />
+    <p>Placeholder text</p>
+  </section>
+
+  <footer>
+    <nav>
+      <h3>External links</h3>
+      <ul>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+      </ul>
+    </nav>
+    <section>
+        <h3>Contact form</h3>
       <form action="">
-        <input type="text" />
-        <button>Search</button>
+          <input type="email" required="required" placeholder="youremail@domain.com"/>
+          <textarea placeholder="Your message here" name="" id="" rows="10"></textarea>
+        <div>
+          <button>Submit</button>
+        </div>
       </form>
     </section>
+  </footer>
 
-    <section id="latest-releases">
-      <div class="web-header">
-        <h1 class="web-header">Latest Releases</h1>
-      </div>
-      <div class="carousel">
-        <img src="src/images/maxresdefault.jpg" alt="" />
-        <p>Placeholder text</p>
-        <img src="src/images/maxresdefault.jpg" alt="" />
-        <p>Placeholder text</p>
-        <img src="src/images/maxresdefault.jpg" alt="" />
-        <p>Placeholder text</p>
-        <img src="src/images/maxresdefault.jpg" alt="" />
-        <p>Placeholder text</p>
-        <img src="src/images/maxresdefault.jpg" alt="" />
-        <p>Placeholder text</p>
-      </div>
-    </section>
-
-    <section id="extra-info">
-      <h2>Extra info to go here</h2>
-      <p>
-        Proin condimentum risus est, id iaculis risus euismod in. Quisque rutrum
-        venenatis purus et ullamcorper. Vestibulum iaculis non felis et
-        bibendum. Nulla fringilla orci nunc. Phasellus urna enim, cursus nec
-        vestibulum vel, placerat sit amet nunc. Donec eleifend eu enim ac
-        consequat. Aliquam ut semper magna. In eros diam, pharetra id massa id,
-        tempor feugiat purus. Aenean nec tortor lacus. Aliquam erat volutpat.
-        Nam at ante suscipit, tincidunt tortor quis, blandit nunc. Nunc eu
-        varius turpis, sit amet venenatis urna. Sed vehicula purus tincidunt
-        ante semper mattis.
-      </p>
-      <!-- carousel will go here -->
-      <img src="src/images/maxresdefault.jpg" alt="" />
-      <p>Placeholder text</p>
-      <img src="src/images/maxresdefault.jpg" alt="" />
-      <p>Placeholder text</p>
-      <img src="src/images/maxresdefault.jpg" alt="" />
-      <p>Placeholder text</p>
-    </section>
-
-    <footer id="footer">
-      <div>
-        <h3>External links</h3>
-        <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
-          <li>Link 3</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Contact form</h3>
-        <form action="">
-          <input type="" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-      </div>
-    </footer>
-
+  <script src="src/index.js"></script>
   </body>
 </html>
