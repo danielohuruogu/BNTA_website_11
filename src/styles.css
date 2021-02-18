@@ -1,0 +1,45 @@
+body {
+    font-family: comic sans-serif;
+    background-color: #424e57;
+}
+
+/********************************* FOR THE TOP NAV BAR***********************************/
+
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#web-logo {
+    width: 30%;
+}
+
+
+/********************************* LATEST RELEASES SECTION ************************************/
+#latest-releases {
+    display: flex;
+    flex-direction: column;
+}
+
+.web-header {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    width: 40%;
+}
+
+/************************************ EXTRA INFO *********************************/
+
+#extra-info img {
+    width: 40%;
+}
+
+/********************************** FOOTER ************************************/
